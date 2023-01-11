@@ -15,6 +15,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route index element={<Store />} />
+          <Route path="success" element={<Success />} />
         </Routes>
       </BrowserRouter>
     </Container>
