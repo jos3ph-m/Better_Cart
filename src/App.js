@@ -13,7 +13,9 @@ function App() {
     <Container>
       <NavbarComponent></NavbarComponent>
       <BrowserRouter>
-        <Routes></Routes>
+        <Routes>
+          <Route index element={<Store />} />
+        </Routes>
       </BrowserRouter>
     </Container>
   );
