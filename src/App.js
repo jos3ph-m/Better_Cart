@@ -8,7 +8,11 @@ import { Container } from 'react-bootstrap';
 // localhost:3000/success -> Success
 
 function App() {
-  return <NavbarComponent></NavbarComponent>;
+  return (
+    <Container>
+      <NavbarComponent></NavbarComponent>
+    </Container>
+  );
 }
 
 export default App;
