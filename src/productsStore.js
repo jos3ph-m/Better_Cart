@@ -15,3 +15,5 @@ const productsArray = [
     price: 66.99,
   },
 ];
+
+export { productsArray };
