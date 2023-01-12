@@ -9,18 +9,6 @@ function Store() {
         <Col align="center">
           <h1>Product</h1>
         </Col>
-        <Col align="center">
-          <h1>Product</h1>
-        </Col>
-        <Col align="center">
-          <h1>Product</h1>
-        </Col>
-        <Col align="center">
-          <h1>Product</h1>
-        </Col>
-        <Col align="center">
-          <h1>Product</h1>
-        </Col>
       </Row>
     </>
   );
