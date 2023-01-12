@@ -6,12 +6,12 @@ const productsArray = [
   },
   {
     id: 2,
-    name: 'Tea',
-    price: 3.99,
+    name: 'Sunglasses',
+    price: 13.99,
   },
   {
     id: 3,
-    name: 'Juice',
-    price: 6.99,
+    name: 'Camera',
+    price: 66.99,
   },
 ];
