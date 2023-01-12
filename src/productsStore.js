@@ -5,12 +5,12 @@ const productsArray = [
     price: 4.99,
   },
   {
-    id: 1,
+    id: 2,
     name: 'Coffee',
     price: 4.99,
   },
   {
-    id: 1,
+    id: 3,
     name: 'Coffee',
     price: 4.99,
   },
