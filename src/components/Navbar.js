@@ -19,6 +19,7 @@ function NavbarComponent() {
         <Modal.Header closeButton>
           <Modal.Title>Shopping Cart</Modal.Title>
         </Modal.Header>
+        <Modal.Body>This is the Modal body</Modal.Body>
       </Modal>
     </>
   );
