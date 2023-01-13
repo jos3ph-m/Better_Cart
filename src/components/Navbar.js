@@ -10,6 +10,7 @@ function NavbarComponent() {
           <Button>Cart 0 Items</Button>
         </Navbar.Collapse>
       </Navbar>
+      <Modal show={show} onHide={handleClose}></Modal>
     </>
   );
 }
