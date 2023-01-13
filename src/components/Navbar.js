@@ -4,6 +4,8 @@ import { useState } from 'react';
 function NavbarComponent() {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
   return (
     <>
       <Navbar expand="sm">
