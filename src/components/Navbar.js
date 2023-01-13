@@ -1,4 +1,5 @@
 import { Button, Container, Navbar, Modal } from 'react-bootstrap';
+import { useState } from 'react';
 
 function NavbarComponent() {
   const [show, setShow] = useState(false);
