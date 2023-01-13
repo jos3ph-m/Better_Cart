@@ -1,6 +1,7 @@
 import { Button, Container, Navbar, Modal } from 'react-bootstrap';
 
 function NavbarComponent() {
+  const [show, setShow] = useState(false);
   return (
     <>
       <Navbar expand="sm">
