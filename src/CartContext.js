@@ -10,5 +10,7 @@ export const CartContext = createContext({
   getTotalCost: () => {},
 });
 
+export function CartProvider({ children }) {}
+
 // Context (cart, addToCart, removeCart)
 // Provider -> gives your React app access to all the things in your context
