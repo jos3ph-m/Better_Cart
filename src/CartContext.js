@@ -11,7 +11,9 @@ export const CartContext = createContext({
 });
 
 export function CartProvider({ children }) {
-  <CartProvider></CartProvider>;
+  return (
+    <CartContext.Provider value={contextValue}>{children}</CartContext.Provider>
+  );
 }
 
 // Context (cart, addToCart, removeCart)
