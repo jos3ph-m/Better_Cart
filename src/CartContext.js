@@ -29,6 +29,12 @@ export function CartProvider({ children }) {
 
   function addOneToCart(id) {
     const quantity = getProductQuantity(id);
+
+    if (quantity === 0) {
+      // product is not in cart
+    } else {
+      // product is in cart
+    }
   }
 
   const contextValue = {
