@@ -27,7 +27,9 @@ export function CartProvider({ children }) {
     return quantity;
   }
 
-  function addOneToCart() {}
+  function addOneToCart(id) {
+    const quantity = getProductQuantity(id);
+  }
 
   const contextValue = {
     items: cartProducts,
