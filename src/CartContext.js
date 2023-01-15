@@ -14,7 +14,7 @@ export function CartProvider({ children }) {
   const [cartProducts, setCartProducts] = useState([]);
 
   const contextValue = {
-    items: [],
+    items: cartProducts,
     getProductQuantity,
     addOneToCart,
     removeOneFromCart,
