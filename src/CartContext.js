@@ -16,6 +16,8 @@ export function CartProvider({ children }) {
   // in our cart we will store {id, quantity}
   // for instance [ { id: 1, quantity: 2}]
 
+  function getProductQuantity(id) {}
+
   const contextValue = {
     items: cartProducts,
     getProductQuantity,
