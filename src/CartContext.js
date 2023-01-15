@@ -17,7 +17,7 @@ export function CartProvider({ children }) {
   // for instance [ { id: 1, quantity: 2}]
 
   function getProductQuantity(id) {
-    cartProducts.find();
+    cartProducts.find((product) => product.id === id);
   }
 
   const contextValue = {
