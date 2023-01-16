@@ -37,7 +37,7 @@ export function CartProvider({ children }) {
       // product is in cart
       setCartProducts(
         cartProducts.map(
-          product => product.id === id?{...product}
+          product => product.id === id?{...product, quantity: product.quantity+1}
         )
       )
     }
