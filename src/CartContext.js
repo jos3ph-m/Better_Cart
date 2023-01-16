@@ -32,7 +32,7 @@ export function CartProvider({ children }) {
 
     if (quantity === 0) {
       // product is not in cart
-      setCartProducts([...cartProducts]);
+      setCartProducts([...cartProducts, { id: id, quantity: 1 }]);
     } else {
       // product is in cart
     }
