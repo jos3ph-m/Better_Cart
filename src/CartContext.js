@@ -35,6 +35,11 @@ export function CartProvider({ children }) {
       setCartProducts([...cartProducts, { id: id, quantity: 1 }]);
     } else {
       // product is in cart
+      setCartProducts(
+        cartProducts.map(
+          product => product.id === id?{...product}
+        )
+      )
     }
   }
 
