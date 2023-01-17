@@ -78,6 +78,7 @@ export function CartProvider({ children }) {
       const productData = getProductData(cartItem.id);
       totalCost += productData.price * cartItem.quantity;
     });
+    return totalCost;
   }
 
   const contextValue = {
@@ -92,6 +93,8 @@ export function CartProvider({ children }) {
     <CartContext.Provider value={contextValue}>{children}</CartContext.Provider>
   );
 }
+
+export default CartProvider;
 
 // Context (cart, addToCart, removeCart)
 // Provider -> gives your React app access to all the things in your context
