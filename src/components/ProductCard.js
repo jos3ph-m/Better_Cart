@@ -1,4 +1,5 @@
 import { Card, Button, Form, Row, Col } from 'react-bootstrap';
+import { CartContext } from '../CartContext';
 
 function ProductCard(props) {
   // props.product is the product we are selling
