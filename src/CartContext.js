@@ -45,6 +45,8 @@ export function CartProvider({ children }) {
     }
   }
 
+  function deleteFromCart(id) {}
+
   const contextValue = {
     items: cartProducts,
     getProductQuantity,
