@@ -51,7 +51,13 @@ export function CartProvider({ children }) {
     if (quantity == 1) {
       deleteFromCart(id);
     } else {
-      setCartProducts();
+      setCartProducts(
+        cartProducts.map((product) =>
+          product.id === id
+            ? { ...product, quantity: product.quantity - 1 }
+            : product
+        )
+      );
     }
   }
 
