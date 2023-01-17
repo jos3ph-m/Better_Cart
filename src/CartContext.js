@@ -72,6 +72,10 @@ export function CartProvider({ children }) {
     );
   }
 
+  function getTotalCost() {
+    let totalCost = 0;
+  }
+
   const contextValue = {
     items: cartProducts,
     getProductQuantity,
