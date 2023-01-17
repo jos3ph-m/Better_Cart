@@ -50,6 +50,8 @@ export function CartProvider({ children }) {
 
     if (quantity == 1) {
       deleteFromCart(id);
+    } else {
+      setCartProducts();
     }
   }
 
