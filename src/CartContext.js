@@ -46,6 +46,8 @@ export function CartProvider({ children }) {
   }
 
   function deleteFromCart(id) {
+    // [] if an object meets a condition, add the object to an array
+    // [product1, product2, product3]
     setCartProducts((cartProducts) => cartProducts.filter());
   }
 
