@@ -46,7 +46,7 @@ export function CartProvider({ children }) {
   }
 
   function deleteFromCart(id) {
-    setCartProducts((cartProducts) => {});
+    setCartProducts((cartProducts) => cartProducts.filter());
   }
 
   const contextValue = {
