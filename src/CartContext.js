@@ -45,7 +45,9 @@ export function CartProvider({ children }) {
     }
   }
 
-  function removeOneFromCart(id) {}
+  function removeOneFromCart(id) {
+    const quantity = getProductQuantity(id);
+  }
 
   function deleteFromCart(id) {
     // [] if an object meets a condition, add the object to an array
