@@ -47,6 +47,10 @@ export function CartProvider({ children }) {
 
   function removeOneFromCart(id) {
     const quantity = getProductQuantity(id);
+
+    if (quantity == 1) {
+      deleteFromCart(id);
+    }
   }
 
   function deleteFromCart(id) {
