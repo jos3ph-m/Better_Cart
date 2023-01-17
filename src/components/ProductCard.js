@@ -13,7 +13,9 @@ function ProductCard(props) {
       <Card.Body>
         <Card.Title>{product.name}</Card.Title>
         <Card.Text>${product.price}</Card.Text>
-        <Button variant="primary">Add To Cart</Button>
+        <Button variant="primary" onClick={() => cart.addOneToCart(product.id)}>
+          Add To Cart
+        </Button>
       </Card.Body>
     </Card>
   );
