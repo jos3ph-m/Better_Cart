@@ -19,7 +19,11 @@ function ProductCard(props) {
               <Form.Label column="true" sm="6">
                 In Cart: {productQuantity}
               </Form.Label>
-              <Col sm="6"></Col>
+              <Col sm="6">
+                <Button sm="6" className="mx-2">
+                  +
+                </Button>
+              </Col>
             </Form>
           </>
         ) : (
