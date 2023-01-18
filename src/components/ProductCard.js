@@ -16,7 +16,9 @@ function ProductCard(props) {
         {productQuantity > 0 ? (
           <>
             <Form as={Row}>
-              <Form.Label column="true" sm="6"></Form.Label>
+              <Form.Label column="true" sm="6">
+                In Cart: {productQuantity}
+              </Form.Label>
             </Form>
           </>
         ) : (
