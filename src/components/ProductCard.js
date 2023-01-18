@@ -23,6 +23,9 @@ function ProductCard(props) {
                 <Button sm="6" className="mx-2">
                   +
                 </Button>
+                <Button sm="6" className="mx-1">
+                  -
+                </Button>
               </Col>
             </Form>
           </>
