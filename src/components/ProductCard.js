@@ -15,7 +15,7 @@ function ProductCard(props) {
         <Card.Text>${product.price}</Card.Text>
         {productQuantity > 0 ? (
           <>
-            <Form></Form>
+            <Form as={Row}></Form>
           </>
         ) : (
           <Button
