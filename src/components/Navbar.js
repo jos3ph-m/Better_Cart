@@ -19,7 +19,11 @@ function NavbarComponent() {
         <Navbar.Brand href="/">Ecommerce store</Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
-          <Button onClick={handleShow}>Cart ({productsCount} Items)</Button>
+          {productsCount == 1 ? (
+            <Button onClick={handleShow}>Cart {productsCount} Item</Button>
+          ) : (
+            <Button onClick={handleShow}>Cart {productsCount} Items</Button>
+          )}
         </Navbar.Collapse>
       </Navbar>
       <Modal show={show} onHide={handleClose}>
