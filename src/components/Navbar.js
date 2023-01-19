@@ -8,6 +8,8 @@ function NavbarComponent() {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
+  const productsCount = cart.items.reduce((sum, product) => {});
+
   return (
     <>
       <Navbar expand="sm">
