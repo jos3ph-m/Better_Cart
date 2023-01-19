@@ -36,7 +36,9 @@ function ProductCard(props) {
                 </Button>
               </Col>
             </Form>
-            <Button></Button>
+            <Button variant="danger" className="my-2">
+              Remove from cart
+            </Button>
           </>
         ) : (
           <Button
