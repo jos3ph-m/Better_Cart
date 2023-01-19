@@ -36,7 +36,11 @@ function ProductCard(props) {
                 </Button>
               </Col>
             </Form>
-            <Button variant="danger" className="my-2">
+            <Button
+              variant="danger"
+              onClick={() => cart.deleteFromCart(product.id)}
+              className="my-2"
+            >
               Remove from cart
             </Button>
           </>
