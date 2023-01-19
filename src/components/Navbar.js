@@ -3,6 +3,7 @@ import { useState, useContext } from 'react';
 import { CartContext } from '../CartContext';
 
 function NavbarComponent() {
+  const cart = useContext(CartContext);
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
