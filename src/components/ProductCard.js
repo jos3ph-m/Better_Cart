@@ -20,7 +20,11 @@ function ProductCard(props) {
                 In Cart: {productQuantity}
               </Form.Label>
               <Col sm="6">
-                <Button sm="6" onClick={} className="mx-2">
+                <Button
+                  sm="6"
+                  onClick={() => cart.addOneToCart}
+                  className="mx-2"
+                >
                   +
                 </Button>
                 <Button sm="6" className="mx-1">
