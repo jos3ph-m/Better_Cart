@@ -36,7 +36,11 @@ function NavbarComponent() {
             <>
               <p>Items in your cart:</p>
               {cart.items.map((currentProduct, index) => (
-                <CardProduct id={index}></CardProduct>
+                <CardProduct
+                  key={index}
+                  id={currentProduct.id}
+                  quantity={currentProduct.quantity}
+                ></CardProduct>
               ))}
               <h1>Total: ${cart.getTotalCost().toFixed(2)}</h1>
               <Button variant="success">Purchase items</Button>
