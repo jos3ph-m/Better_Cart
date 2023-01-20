@@ -34,6 +34,9 @@ function NavbarComponent() {
           {productsCount > 0 ? (
             <>
               <p>Items in your cart:</p>
+              {cart.items.map((currentProduct, index) => (
+                
+              ))}
             </>
           ) : (
             <h1>There are no items in your cart</h1>
