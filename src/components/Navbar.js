@@ -31,7 +31,13 @@ function NavbarComponent() {
           <Modal.Title>Shopping Cart</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          {productsCount > 0 ? <></> : <h1>There are no items in your cart</h1>}
+          {productsCount > 0 ? (
+            <>
+              <p>Items in your cart:</p>
+            </>
+          ) : (
+            <h1>There are no items in your cart</h1>
+          )}
           <h1>This is the Modal body</h1>
         </Modal.Body>
       </Modal>
