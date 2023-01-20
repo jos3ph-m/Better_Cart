@@ -35,7 +35,7 @@ function NavbarComponent() {
             <>
               <p>Items in your cart:</p>
               {cart.items.map((currentProduct, index) => (
-                
+                <h1></h1>
               ))}
             </>
           ) : (
