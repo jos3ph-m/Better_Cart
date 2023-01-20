@@ -7,6 +7,7 @@ function CartProduct(props) {
   const cart = useContext(CartContext);
   const id = props.id;
   const quantity = props.quantity;
+  const productData = getProductData(id);
 }
 
 export default CartProduct;
