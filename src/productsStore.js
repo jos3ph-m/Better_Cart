@@ -9,12 +9,12 @@ const productsArray = [
     price: 4.99,
   },
   {
-    id: '',
+    id: 'price_1MTYsvGZFfadWryGfYN2Bg48',
     name: 'Sunglasses',
     price: 13.99,
   },
   {
-    id: 3,
+    id: '',
     name: 'Camera',
     price: 66.99,
   },
