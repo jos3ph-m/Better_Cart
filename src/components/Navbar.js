@@ -9,6 +9,10 @@ function NavbarComponent() {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
+  const checkout = async () => {
+    await fetch();
+  };
+
   const productsCount = cart.items.reduce(
     (sum, product) => sum + product.quantity,
     0
