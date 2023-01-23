@@ -16,9 +16,15 @@ function NavbarComponent() {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({ items: cart.items }),
-    }).then((response) => {
-      return response.json();
-    });
+    })
+      .then((response) => {
+        return response.json();
+      })
+      .then((response) => {
+        if (response.url) {
+          window.location.assign(response.url);
+        }
+      });
   };
 
   const productsCount = cart.items.reduce(
