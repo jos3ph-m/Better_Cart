@@ -44,7 +44,7 @@ function NavbarComponent() {
               ))}
               <h1>Total: ${cart.getTotalCost().toFixed(2)}</h1>
               <Button variant="success" onClick={checkout}>
-                Purchase items
+                Purchase items!
               </Button>
             </>
           ) : (
