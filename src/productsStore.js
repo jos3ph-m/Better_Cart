@@ -9,7 +9,7 @@ const productsArray = [
     price: 4.99,
   },
   {
-    id: 2,
+    id: '',
     name: 'Sunglasses',
     price: 13.99,
   },
