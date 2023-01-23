@@ -10,7 +10,7 @@ function NavbarComponent() {
   const handleShow = () => setShow(true);
 
   const checkout = async () => {
-    await fetch();
+    await fetch('http://localhost:4000/checkout');
   };
 
   const productsCount = cart.items.reduce(
