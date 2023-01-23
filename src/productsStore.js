@@ -14,7 +14,7 @@ const productsArray = [
     price: 13.99,
   },
   {
-    id: '',
+    id: 'price_1MTYu8GZFfadWryGULoHxlEE',
     name: 'Camera',
     price: 66.99,
   },
