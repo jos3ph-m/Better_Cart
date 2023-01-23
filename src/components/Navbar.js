@@ -12,7 +12,9 @@ function NavbarComponent() {
   const checkout = async () => {
     await fetch('http://localhost:4000/checkout', {
       method: 'POST',
-      headers: {},
+      headers: {
+        'Content-Type': 'application/json',
+      },
     });
   };
 
