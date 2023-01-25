@@ -35,7 +35,7 @@ function NavbarComponent() {
   return (
     <>
       <Navbar expand="sm">
-        <Navbar.Brand href="/">Ecommerce store</Navbar.Brand>
+        <Navbar.Brand href="/">Random React Cart</Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
           {productsCount == 1 ? (
