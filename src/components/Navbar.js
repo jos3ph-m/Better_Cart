@@ -68,7 +68,7 @@ function NavbarComponent() {
           ) : (
             <h1>There are no items in your cart</h1>
           )}
-          <h1>This is the Modal body</h1>
+          <h1>This is the Modal</h1>
         </Modal.Body>
       </Modal>
     </>
