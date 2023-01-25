@@ -6,8 +6,12 @@ function Store() {
   return (
     <>
       <h1 align="center" className="p-3">
-        Welcome to the store!
+        The Coffee, Sunglasses and Camera Store 2.0
       </h1>
+      <p align="center" className="p-3">
+        Add items to your cart and purchase them. If you don't we don't make
+        money.
+      </p>
       <Row xs={1} md={3} className="g-4">
         {productsArray.map((product, index) => (
           <Col align="center" key={index}>
