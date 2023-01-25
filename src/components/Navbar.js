@@ -22,7 +22,7 @@ function NavbarComponent() {
       })
       .then((response) => {
         if (response.url) {
-          window.location.assign(response.url);
+          window.location.assign(response.url); // Forwarding user to stripe
         }
       });
   };
